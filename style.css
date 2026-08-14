@@ -1,0 +1,29 @@
+* { color:#8d8684; }
+
+body {
+    font-family: Iosevka Nerd Font, 'Courier New', Courier, monospace;
+    background-color: #1b252b;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+li {
+    margin: 5px 0;
+}
+
+input {
+    border-radius: 10px;
+    border-color: beige;
+    border-width: 1px;
+    field-sizing: fixed; /*makes the input field size adapt to the size of the content in it*/
+    min-width: 50px;
+    color: #1b252b !important;
+}
+
