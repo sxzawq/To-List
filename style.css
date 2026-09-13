@@ -1,13 +1,15 @@
 * { color: #b2b59c; }
 
 body {
-    font-family: Source Code Pro, 'Courier New', Courier, monospace;
-    background-color: #1b1f1d;
+    font-family: Poppins;
+    background: #1b1f1d;
+    min-height: 100vh;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    margin-left: 5px;
 }
 
 label {
@@ -18,11 +20,57 @@ li {
     margin: 5px 0;
 }
 
-input {
-    border-radius: 10px;
-    border-color: beige;
-    border-width: 1px;
+.todo-input input {
+    border-radius: 8px;
+    border: none;
+    border-width: 0px;
     field-sizing: content; /*makes the input field size adapt to the size of the content in it*/
     min-width: 100px;
-    color: #1b252b !important;
+    font-size: 16px;
+    color: #1b1f1d;
+    padding: 12px;
+    margin: 12px 6px 12px 12px;
+}
+
+.todo-input button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #b2b59c;
+    color: #1b1f1d;
+    padding: 12px 20px;
+    margin: 12px;
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.delete-btn:hover {
+    color: darkred;
+}
+
+.todo-input {
+    display: flex;
+
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#clear {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background: darkred;
+    color: #cfcfcf;
+    cursor: pointer;
+    margin-top: 20px;
 }
